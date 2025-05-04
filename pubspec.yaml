@@ -1,0 +1,52 @@
+name: music_streaming_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Prevent accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: # Gói hỗ trợ đa ngôn ngữ
+    sdk: flutter
+  barcode_scan2: ^4.2.4
+  image_picker: ^1.0.0
+  qr_flutter: ^4.1.0 # Để tạo mã QR
+  flutter_svg: ^2.0.0
+  cached_network_image: ^3.3.1
+  just_audio: ^0.10.1
+  url_launcher: ^6.2.4
+  http: ^1.2.1
+  shared_preferences: ^2.0.15
+  file_picker: ^10.1.2
+  speech_to_text: ^7.0.0
+  intl: ^0.19.0 # Gói hỗ trợ định dạng và đa ngôn ngữ
+  cupertino_icons: ^1.0.8 # Biểu tượng iOS
+  change_app_package_name: ^1.5.0
+
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/DNAHUABRACA.png" # Đường dẫn đến biểu tượng ứng dụng
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Antu_soundcloud.svg.png
+    - assets/images/Spotify_icon.png
+    - assets/images/Apple_Music_Icon.svg.png
+    - assets/images/YouTube_social_red_circle_(2017).svg.png
+    - assets/images/DNAHUABRACA.png
